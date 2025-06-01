@@ -188,10 +188,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&lt 2 Q      &kp W         &kp E     &kp R      &lt 1 T       &kp EXCLAMATION  &none          &none        &kp I            &none       &kp P            &none
-&kp A        &kp S         &kp D     &kp F      &kp G         &kp QUESTION     &kp H          &kp J        &kp K            &kp L       &kp EXCLAMATION  &kp ENTER
-&mt LSHFT Z  &kp X         &kp C     &kp V      &kp B         &kp B            &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp QUESTION     &kp BACKSPACE
-&kp LCTRL    &kp LEFT_WIN  &none     &kp SPACE  &kp CAPS      &kp PRINTSCREEN  &kp SEMICOLON  &to 1        &kp COLON        &kp UNDER   &none            &none
+&lt 2 Q      &kp W         &kp E     &kp R      &lt 1 T       &kp EXCLAMATION  &kp MINUS      &none        &kp U            &kp I       &kp O       &kp P
+&kp A        &kp S         &kp D     &kp F      &kp G         &kp QUESTION     &kp TILDE      &kp J        &kp J            &kp K       &kp L       &kp ENTER
+&mt LSHFT Z  &kp X         &kp C     &kp V      &kp B         &kp B            &kp AT_SIGN    &kp M        &kp M            &kp COMMA   &kp PERIOD  &kp BACKSPACE
+&kp LCTRL    &kp LEFT_WIN  &none     &kp SPACE  &kp CAPS      &kp PRINTSCREEN  &kp SEMICOLON  &to 1        &kp COLON        &kp UNDER   &none       &none
                            &kp DOWN  &kp LEFT   &kp UP_ARROW  &kp RIGHT        &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
         };
