@@ -183,7 +183,9 @@
 
         DEFAULT_LAYER {
             display-name = "Default";
-            sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
+            sensor-bindings =
+                <&inc_dec_kp LC(KP_PLUS) LC(MINUS)>,
+                <&scroll_up_down>;
 
             bindings = <
 &lt 2 ESC  &kp Q         &kp W         &kp E         &kp R         &lt 1 T          &kp Y          &kp U        &kp I            &kp O       &kp P          &kp F8
