@@ -46,8 +46,7 @@
 &glidepoint_listener_L {
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 3 2>
-    ;
+        <&zip_xy_scaler 3 2>;
 
     lowspeedmode {
         layers = <SECONDARY_LAYER>;
@@ -187,9 +186,9 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&lt 2 ESC  &kp Q         &kp W         &kp E         &kp R         &lt 1 T          &kp Y          &kp U        &kp I            &kp O       &kp P          &kp TILDE
-&kp TAB    &kp A         &kp S         &kp D         &kp F         &lt 5 G          &kp H          &kp J        &kp K            &kp L       &kp ENTER      &kp F7
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V         &kp B            &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp BACKSPACE  &kp F8
+&lt 2 ESC  &kp Q         &kp W         &kp E         &kp R         &lt 1 T          &kp Y          &kp U        &kp I            &kp O       &kp P          &kp F8
+&kp TAB    &kp A         &kp S         &kp D         &kp F         &lt 5 G          &kp H          &kp J        &kp K            &kp L       &kp ENTER      &kp ENTER
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V         &kp B            &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp BACKSPACE  &kp BACKSPACE
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp CAPSLOCK  &kp SPACE     &kp PRINTSCREEN  &kp SEMICOLON  &to 1        &kp COLON        &kp UNDER   &none          &sl 3
                          &kp DOWN      &kp LEFT      &kp UP_ARROW  &kp RIGHT        &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
