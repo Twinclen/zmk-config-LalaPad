@@ -212,11 +212,11 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp ESCAPE      &kp Q           &kp W         &kp E           &none         &none      &trans  &kp AT_SIGN  &kp EXCLAMATION  &kp MINUS             &kp EQUAL              &trans
-&kp TAB         &kp A           &kp S         &kp D           &kp UP_ARROW  &none      &trans  &trans       &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&kp LEFT_SHIFT  &kp Z           &kp X         &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans       &kp UNDER        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT  &kp SPACE       &kp SPACE     &none      &trans  &trans       &trans           &trans                &trans                 &trans
-                                &trans        &trans          &trans        &trans     &trans  &trans       &trans           &trans
+&kp ESCAPE      &kp Q           &kp W           &kp UP_ARROW    &none      &none      &trans  &kp AT_SIGN  &kp EXCLAMATION  &kp MINUS             &kp EQUAL              &trans
+&kp TAB         &kp A           &kp LEFT_ARROW  &kp DOWN        &kp RIGHT  &none      &trans  &trans       &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&kp LEFT_SHIFT  &kp Z           &kp X           &kp LEFT_ARROW  &kp DOWN   &kp RIGHT  &trans  &trans       &kp UNDER        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT    &kp SPACE       &kp SPACE  &none      &trans  &trans       &trans           &trans                &trans                 &trans
+                                &trans          &trans          &trans     &trans     &trans  &trans       &trans           &trans
             >;
         };
 
